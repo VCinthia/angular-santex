@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    /* FONTS */
+    --font-textos: "Roboto";
+    --font-menu: "Inter";
+
+    /* COLORS */
+    --color-white1: #F1EFEE;
+    --color-white2: #FEFDF7;
+    --color-menu: #5e5a73;
+    --color-grey: #8b8991;
+    --color-transp: rgba(0, 0, 0, 0.5);
+    --color-transp-alert: rgba(94, 90, 115, 0.7);
+    --color-primary: #bbc648;
+    --color-secondary: #1D00F9;
+
+    --opacity-back: 0.18;
+    --image-back: url('https://i.pinimg.com/564x/0e/92/86/0e928631568f720900745f8fd8e298d1.jpg');
+    --imagen-n-proy: url('https://i.pinimg.com/564x/ad/42/cb/ad42cb866beb89ea2b7381a61809dd75.jpg');
+    --image-gastos: 
+    url('https://i.pinimg.com/564x/45/3d/dd/453ddd60bb56bf1ead30b83ea7ed8cda.jpg');
+    /* url('https://i.pinimg.com/564x/2d/85/14/2d8514e7d5bea2dee7e69d1cfd926aca.jpg'); */
+
+    /* FONT SIZES */    
+    /*? web*/
+    --font-size-titulos-secundarios: 30px;
+    --font-size-titulo-principal: 50px;
+    --font-size-textos-tarjetas: 19px;
+    --font-size-numeros-tarjetas: 30px;
+    --font-size-menu: 16px;
+    --font-size-logos: 50px;
+    --font-size-footer: 14px;
+    /*? mobile*/
+    --font-mb-size-titulos-secundarios: 19px;
+    --font-mb-size-titulo-principal: 50px;
+    --font-mb-size-textos-tarjetas: 16px;
+    --font-mb-size-numeros-tarjetas: 16px;
+    --font-mb-size-menu: 12px;
+    --font-mb-size-logos: 20px;
+
+    /* PADDINGS */
+    --padding-content: 20px;
+    --padding-xxs: 8px;
+    --padding-xs: 15px;
+    --padding-sm: 35px;
+    --padding-md: 40px;
+
+    /* BORDER RADIUS */
+    
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
